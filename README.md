@@ -1,6 +1,6 @@
-# 🩺 Hackspire
+# 🩺 ConsultAi
 
-**Hackspire** is a platform designed to help doctors stay connected with patients, even when they are unavailable in real time.  
+**ConsultAI** is a platform designed to help doctors stay connected with patients, even when they are unavailable in real time.  
 It enables **each doctor to have their own AI-powered doctor bot** that can take consultations on their behalf.  
 The AI doctor bot provides preliminary advice, which is then reviewed by the doctor, allowing them to approve, modify, or suggest alternative treatments.  
 This approach ensures **faster patient care** while keeping the doctor's expertise in the loop.
