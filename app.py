@@ -5,7 +5,7 @@ from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain_community.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
 
 # Load environment variables
@@ -293,6 +293,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
