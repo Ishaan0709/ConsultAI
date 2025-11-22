@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyMuPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
@@ -293,3 +293,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
